@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BookHaven – Online Bookstore</title>
+  <style>
+body { font-family: Arial, sans-serif; margin: 0; line-height: 1.6; background: #fafafa; color: #333; }
+header { background: #2c3e50; color: white; padding: 1em 0; text-align: center; }
+nav ul { list-style: none; display: flex; justify-content: center; gap: 1.5em; padding: 0; }
+nav a { color: white; text-decoration: none; font-weight: bold; }
+.book { background: white; padding: 1em; margin: 1em; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center; }
+.book img { width: 150px; height: auto; border-radius: 8px; }
+footer { background: #2c3e50; color: white; text-align: center; padding: 1em; margin-top: 2em; }
+@media (max-width: 768px) { nav ul { flex-direction: column; } .book { margin: 0.5em; } }
+
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>BookHaven</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#catalog">Catalog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section id="catalog">
+      <h2>Featured Books</h2>
+      <article class="book">
+        <img src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg" alt="Cover of 'Learning HTML5' by Jane Doe" width="500" height="300">
+        <h3>Learning HTML5</h3>
+        <p><strong>Author:</strong> Jane Doe</p>
+        <p><strong>Genre:</strong> Technology</p>
+      </article>
+
+      <article class="book">
+        <img src="https://images.pexels.com/photos/20622958/pexels-photo-20622958.jpeg" alt="Cover of 'CSS for Beginners' by John Smith" width="400" height="400">
+        <h3>CSS for Beginners</h3>
+        <p><strong>Author:</strong> John Smith</p>
+        <p><strong>Genre:</strong> Design</p>
+      </article>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 BookHaven | Web Developer | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
